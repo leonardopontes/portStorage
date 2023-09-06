@@ -1,0 +1,49 @@
+/ POPUP / 1 a 17 /
+
+// Popup
+const popup = document.querySelector(".popup");
+const closePopup = document.querySelector(".popup-close");
+
+if (popup) {
+  closePopup.addEventListener("click", () => {
+    popup.classList.add("hide-popup");
+  });
+
+  window.addEventListener("load", () => {
+    setTimeout(() => {
+      popup.classList.remove("hide-popup");
+    }, 1000);
+  });
+}
+
+
+
+
+
+
+
+/ MENU INTERATIVO / 25 a 33
+
+document.querySelectorAll('.mega-dropdown > a').forEach(e => {
+  e.addEventListener('click', (event) => event.preventDefault())
+})
+
+document.querySelector('#mb-menu-toggle').addEventListener('click', () => document.querySelector('#header-wrapper').classList.add('active'))
+
+document.querySelector('#mb-menu-close').addEventListener('click', () => document.querySelector('#header-wrapper').classList.remove('active'))
+
+
+
+
+
+
+/ NOTIFICAÇÕES / 40 a 49
+
+// notification toast variables
+const notificationToast = document.querySelector('[data-toast]');
+const toastCloseBtn = document.querySelector('[data-toast-close]');
+
+// notification toast eventListener
+toastCloseBtn.addEventListener('click', function () {
+  notificationToast.classList.add('closed');
+});

@@ -1,0 +1,33 @@
+const, function, let, if / else, remove, add, length, return, window
+
+append, fetch, then, map, children, includes, toggle, target, forEach, element
+
+
+document.querySelector
+document.querySelectorAll
+addEventListener
+classList
+
+textContent, toLowerCase  
+
+
+💭 Eu estava refletindo primeiro sobre palavras definidas pelo próprio Desenvolvedor, mas aí veio outra reflexão 
+com relação a Let / Const
+
+ 💭 Let / Const parece se iniciar em boa parte das estruturas, mas não parece ser uma "regra"
+
+  ❓ Afinal, essa reflexão é válida se pensar agora? Está ligado a palavras definidas pelo próprio desenvolve
+  dor?
+
+   💭 Sim. Muita das vezes que eu analisei as estruturas de palavras definidas pelo desenvolvedor antes delas 
+   vinha Const e Let.    
+   
+    💭 Portanto como eu quero saber quando posso utilizar essas palavras
+
+     💭 Acredito que "nada pode ser melhor" do que se basear em dados práticos de projetos já construídos
+
+      *💭 E pelo que vi embora a maioria se inicie com Const e Let, ainda existe uma minoria que não se inicia. 
+      Então eu acredito que o "caminho" para compreender é entender o contexto de quando iniciar com const e let, 
+      e quando iniciar com outras palavras.
+
+      

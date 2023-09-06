@@ -1,0 +1,10 @@
+1- baner
+2- personal information
+3- education
+4- work experience
+5- skills
+6- projects
+7- contact
+
+? directives
+? models

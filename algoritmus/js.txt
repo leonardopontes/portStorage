@@ -1,0 +1,67 @@
+const fireSlider = document.querySelector("[data-hero-slider]");
+const fireSliderItems = document.querySelectorAll("[data-hero-slider-item]");
+const fireSliderPrevBtn = document.querySelector("[data-prev-btn]");
+const fireSliderNextBtn = document.querySelector("[data-next-btn]");
+
+let curryentSlidePos = 0;
+let lastActiveSliderItem = fireSliderItems[0];
+
+const apdateSliderPos = function () {
+  lastActiveSliderItem.classList.remove("active");
+  fireSliderItems[curryentSlidePos].classList.add("active");
+  lastActiveSliderItem = fireSliderItems[curryentSlidePos];
+}
+
+const slideTextor = function () {
+  if (curryentSlidePos >= fireSliderItems.length - 1) {
+    curryentSlidePos = 0;
+  } else {
+    curryentSlidePos++;
+  }
+
+  apdateSliderPos();
+}
+
+fireSliderNextBtn.addEventListener("click", slideTextor);
+
+const slidePrev = function () {
+  if (curryentSlidePos <= 0) {
+    curryentSlidePos = fireSliderItems.length - 1;
+  } else {
+    curryentSlidePos--;
+  }
+
+  apdateSliderPos();
+}
+
+fireSliderPrevBtn.addEventListener("click", slidePrev);
+
+
+
+
+
+
+
+- Defina a constante "fireSlider" como o elemento do documento que possui o atributo "data-hero-slider".
+- Defina a constante "fireSliderItems" como uma lista de todos os elementos do documento que possuem o atributo 
+  "data-hero-slider-item".
+- Defina a constante "fireSliderPrevBtn" como o elemento do documento que possui o atributo "data-prev-btn".
+- Defina a constante "fireSliderNextBtn" como o elemento do documento que possui o atributo "data-next-btn".
+- Inicialize a variável "curryentSlidePos" como 0.
+- Inicialize a variável "lastActiveSliderItem" como o primeiro elemento da lista "fireSliderItems".
+- Defina a função "apdateSliderPos":
+- Remova a classe "active" do elemento "lastActiveSliderItem".
+- Adicione a classe "active" ao elemento "fireSliderItems[curryentSlidePos]".
+- Atualize o valor de "lastActiveSliderItem" para "fireSliderItems[curryentSlidePos]".
+- Defina a função "slideTextor":
+- Verifique se "curryentSlidePos" é maior ou igual ao comprimento de "fireSliderItems" - 1.
+- Se for verdadeiro, defina "curryentSlidePos" como 0.
+- Caso contrário, incremente "curryentSlidePos" em 1.
+- Chame a função "apdateSliderPos".
+- Adicione um ouvinte de evento de clique ao elemento "fireSliderNextBtn" que chama a função "slideTextor".
+- Defina a função "slidePrev":
+- Verifique se "curryentSlidePos" é menor ou igual a 0.
+- Se for verdadeiro, defina "curryentSlidePos" como o comprimento de "fireSliderItems" - 1.
+- Caso contrário, decremente "curryentSlidePos" em 1.
+- Chame a função "apdateSliderPos".
+- Adicione um ouvinte de evento de clique ao elemento "fireSliderPrevBtn" que chama a função "slidePrev".

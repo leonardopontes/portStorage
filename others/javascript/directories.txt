@@ -1,0 +1,40 @@
+wpcodevo / LC09-ecommerce-website
+ - popup #OK
+ - slider
+trananhtuat / atshop-ecommerce
+PacktPublishing / 10-Mega-Responsive-Websites-with-HTML-CSS-and-JavaScript  (1, 3, 5, 6, 7, 8)
+Arun9739 / Paryatana
+mayhemantt / Portfolio-Website
+umutxyp / Personal-Website
+BlackTimber-Labs / Portfolio-Website
+sahandghavidel / HTML-CSS-JavaScript-projects-for-beginners
+PreMiD / Website
+wpcodevo / phone_website
+codewithsadee / anon-ecommerce-website
+ dentelo
+ eduhome
+ grilli
+learning-zone / website-templates
+adrianhajdin / portfolio_website
+Asabeneh / 30-Days-Of-JavaScript
+bradtraversy / proshop-v2  *
+bradtraversy / vanillawebprojects
+bradtraversy / design-resources-for-developers
+webcreate / infinite-ajax-scroll
+vinaysomawat / vinaysomawat.github.io
+LoginRadius / awesome-login-pages
+bradtraversy / 50projects50days *
+30-seconds / 30-seconds-of-code
+
+- trekhleb
+ - javascript-algorithms 
+ - learn-python
+ - homemade-machine-learning
+
+
+FrDH / mmenu-js  
+lassiecoder / E-CommerceWebsite
+
+
+30 segundos / 30 segundos na web
+thedaviddias / Front-End-Checklist

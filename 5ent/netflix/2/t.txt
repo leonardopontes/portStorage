@@ -1,0 +1,15 @@
+As Melhores séries e filmes se encontra aqui!
+ Assista onde quiser, quando quiser
+
+
+      <div class="sidebody" style="height: 7vh;">
+        <div class="searchBar">
+            <input placeholder="Search..." id="searchBar" name="searchBar" type="text">
+            <i class="fa-solid fa-magnifying-glass glass" id="btn"></i>
+        </div>
+
+
+        <script src="./js/scripts.js"></script>
+
+
+        @/assets/images/banner2.jpg

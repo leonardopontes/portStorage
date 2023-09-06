@@ -1,0 +1,35 @@
+Como faço para posicionar o título mais para baixo?
+
+
+@media (min-width: 992px) {
+
+  .title3{
+
+  }
+} 
+
+
+
+Responsivos e Construídos com: HTML, CSS e Bootstrap!
+
+ Inspirado em grandes marcas e Designs de website. 
+ 
+Publicados no Github Pages.
+
+#1 NIKE
+#2 Louis Vuitton
+#3 Meu Portfolio
+#4 Angular - Em construção
+
+E muito mais por vir. O objetivo é sempre evoluir :)
+
+Meu Perfil GitHub e repositórios: 
+
+
+
+
+Outros Projetos: Construídos com Wix e Yampi
+
+#1 Ecommerce básico (Yampi)
+#2 Tecnology Company (Wix)
+#3 Ecommerce (Wix) - Em construção

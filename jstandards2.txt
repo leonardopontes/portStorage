@@ -1,0 +1,22 @@
+? js-search (7, 17)
+
+
+? grilli-master (11 - teve apenas um const e uma atribuição, sendo que não teve para 'window' e 'document.body'). porque? o certo não seria ter para 'const window' e 
+'const document.body' e não somente para 'const preloaderx'? porque teve somente para 'preloaderx'? qual o contexto?
+
+ ? (24 - Se inicia com const, mas me parece que em seguida não é atribuída uma palavra definida pelo próprio desenvolvedor mas sim a palavra faz parte da linguagem Ja
+vaScript. confere? 'addEventOnElements' é uma palavra / elemento do próprio JavaScript?
+
+  ! Possa ser que seja definida pelo próprio desenvolvedor, ou não, mas a palavra se repete na linha (46)
+  ! Um exemplo 'semelhante' pode ser hideHeader (59 e 74), 'apdate', slidePrev
+
+ ? (40 - toggleNavbar é uma palavra presente na própria linguagem ou definida pelo próprio desenvolvedor?)
+
+ ? (70 - parece se iniciar com 'window' em vez de const ou let)
+
+ 
+ ? OBS.: Notei e ao que me parece apenas const e let são seguidos de palavras definidas do proprio desenvolve
+ dor e logo em seguida com o sinal '='. afinal, apenas 'conta' as palavras personalizada assim? os que começa
+ com por exemplo 'window', não 'conta'? ou 'conta' como o que?
+
+123+ continue

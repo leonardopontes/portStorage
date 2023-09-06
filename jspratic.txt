@@ -1,0 +1,53 @@
+const slider1 = document.querySelector('#glide_1');
+if (slider1) {
+  new Glide(slider1, {
+    type: 'carousel',
+    startAt: 0,
+    // autoplay: 3000,
+    gap: 0,
+    hoverpause: true,
+    perView: 1,
+    animationDuration: 800,
+    animationTimingFunc: 'linear',
+  }).mount();
+}
+
+
+
+const heroSlider = document.querySelector("[data-hero-slider]");
+const heroSliderItems = document.querySelectorAll("[data-hero-slider-item]");
+const heroSliderPrevBtn = document.querySelector("[data-prev-btn]");
+const heroSliderNextBtn = document.querySelector("[data-next-btn]");
+
+let currentSlidePos = 0;
+let lastActiveSliderItem = heroSliderItems[0];
+
+const updateSliderPos = function () {
+  lastActiveSliderItem.classList.remove("active");
+  heroSliderItems[currentSlidePos].classList.add("active");
+  lastActiveSliderItem = heroSliderItems[currentSlidePos];
+}
+
+const slideNext = function () {
+  if (currentSlidePos >= heroSliderItems.length - 1) {
+    currentSlidePos = 0;
+  } else {
+    currentSlidePos++;
+  }
+
+  updateSliderPos();
+}
+
+heroSliderNextBtn.addEventListener("click", slideNext);
+
+const slidePrev = function () {
+  if (currentSlidePos <= 0) {
+    currentSlidePos = heroSliderItems.length - 1;
+  } else {
+    currentSlidePos--;
+  }
+
+  updateSliderPos();
+}
+
+heroSliderPrevBtn.addEventListener("click", slidePrev);

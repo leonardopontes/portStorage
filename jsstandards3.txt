@@ -1,0 +1,7 @@
+'Não basta compreender apenas a funcionalidade, mas sim buscar aplicar cada conceito independente de apenas
+uma única funcionalidade'
+
+const fireSlider = document.querySelector("[data-hero-slider]");
+const fireSliderItems = document.querySelectorAll("[data-hero-slider-item]");
+const fireSliderPrevBtn = document.querySelector("[data-prev-btn]");
+const fireSliderNextBtn = document.querySelector("[data-next-btn]");

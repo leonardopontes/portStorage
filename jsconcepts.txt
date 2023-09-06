@@ -1,0 +1,22 @@
+const slider1 = document.querySelector('#glide_1');
+
+const hamburer = document.querySelector(".hamburger");
+const navList = document.querySelector(".nav-list");
+
+const popup = document.querySelector(".popup");
+const closePopup = document.querySelector(".popup-close");
+
+
+const Accordion = function(selectorOrElement, userOptions) {
+
+
+Como a função atribuída não é reatribuída posteriormente, é adequado usar const para declarar essa
+variável.
+
+Em resumo, nos exemplos que você forneceu, a palavra-chave const é usada para declarar variáveis que representa 
+valores fixos, como elementos HTML selecionados, funções ou objetos. Uma vez que essas constantes recebem seus 
+valores iniciais, eles não podem ser reatribuídos, garantindo a imutabilidade dessas variáveis.
+
+Portanto, a palavra-chave const é usada quando você precisa declarar uma variável com um valor constante, 
+imutável, mas lembre-se de que a imutabilidade se aplica apenas à variável em si e não necessariamente aos seus 
+elementos internos (se for um objeto ou um array).

@@ -1,0 +1,57 @@
+ng serve
+npm update
+
+npm install -g @ionic/cli
+npm install @ionic/angular
+
+
+
+
+
+npm install -g @angular/cli
+npm install -g @ionic/cli
+ionic start myApp tabs --type=angular
+
+ (Use arrow keys)
+> NgModules
+
+ionic serve
+
+
+ionic build
+ionic capacitor build android --prod
+
+ionic build --prod --release
+
+
+
+
+app.module.ts / components.ts
+
+ - import { IonicModule } from '@ionic/angular';
+ - import { CommonModule } from '@angular/common';
+ - imports: [
+     IonicModule.forRoot(),
+     CommonModule
+   ],
+
+
+
+
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Tab 1
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Tab 1</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <app-explore-container name="Tab 1 page"></app-explore-container>
+</ion-content>

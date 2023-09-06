@@ -1,0 +1,252 @@
+/* N A V B A R */
+
+.alma{
+    height: 28px;
+    width: 100px;
+}
+
+
+
+/* S E C T I O N  1 */
+
+  .sec1 {
+    background: url("./images/w1.jpg") no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: top;
+  }
+
+  .title1{
+    font-family: 'lato', cursive;
+    margin-top: 94px;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+    font-size: 110px;
+  }
+
+  .btn-custom {
+    font-family: 'lato', cursive;
+    font-size: 20px;
+    background-color: #000000;
+    color: #7dfd71;
+    border-color: #000000;
+    border-radius: 25px;
+  }
+  
+  .btn-custom:hover {
+    font-family: 'lato', cursive;
+    font-size: 20px;
+    background-color: #7dfd71;
+    color: #000000;
+    border-radius: 25px;
+  }
+
+
+
+/* M E D I A   Q U E R Y   S E C T I O N  1 */
+
+@media (min-width: 10px) and (max-width: 575px) {
+
+  .sec1{
+    min-height: 580px;
+  }  
+
+  .title1{
+    font-size: 65px;
+  }
+
+  .btn-custom {
+    font-size: 20px;
+  }
+  
+  .btn-custom:hover {
+    font-size: 20px;
+  } 
+}   
+
+
+@media (min-width: 280px) and (max-width: 324px) {
+
+  .title1{
+    font-size: 55px;
+  }
+}
+
+
+
+/* S E C T I O N  2 */
+
+.title2{
+  font-family: 'lato', cursive;
+  font-size: 7vw;
+}
+
+.para2{
+  font-size: 18px;
+}
+
+.pess{
+  height: 250px;
+  width: 250px;
+}
+
+
+/* M E D I A   Q U E R Y   S E C T I O N  2 */
+
+@media (min-width: 10px) and (max-width: 575px) {
+
+  .title2{
+    font-size: 12vw;
+  }
+}    
+
+
+
+/* S E C T I O N  3 */
+
+.sec3 {
+  background: linear-gradient(to bottom, #000000, #ff0000);
+  background-repeat: no-repeat;
+  background-size: 100% 15%;
+}
+
+.techs{
+  height: 70px;
+  width: 70px;
+}
+
+
+/* M E D I A   Q U E R Y   S E C T I O N  3 */
+
+
+
+/* S E C T I O N  4 */
+
+.techs2{
+  height: 100px;
+  width: 100px;
+}
+
+
+
+/* S E C T I O N  5 */
+
+.sec5 {
+  background: linear-gradient(to bottom, #000000, #74ff33);
+  background-repeat: no-repeat;
+  background-size: 100% 25%;
+}
+
+
+
+/* S E C T I O N  6 */
+
+.w2{
+  width: 65%;
+  height: 80%;
+}
+
+.title3{
+  font-family: 'lato', cursive;
+  font-size: 7vw;
+}  
+
+
+/* M E D I A   Q U E R Y   S E C T I O N  6 */
+
+@media (min-width: 280px) and (max-width: 575px) {
+
+  .w2{
+    width: 100%;
+    height: 100%;
+  }
+
+  .title3{
+    margin-top: 25%;
+  }
+} 
+
+@media (min-width: 992px) {
+
+  .title3{
+    margin-top: 35%;
+  }
+} 
+
+
+
+/* S E C T I O N  7 */
+
+.sec7 {
+  background: linear-gradient(to bottom, #000000, #a333ff);
+  background-repeat: no-repeat;
+  background-size: 100% 55%;
+}
+
+ /* C A R D S   R E U T I L I T Y ???? */
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+      background-color: #f9f6f2;
+}
+.card-img-top{
+  border-radius: 50px;
+  padding: 20px;
+}
+.card{
+  border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+}
+.card-body{
+  padding: 25px;
+  margin-top: -15px;
+}
+.btn-primary{
+  border-radius: 50px;
+  width: 120px;
+}
+.btn-primary:hover{
+  background-color: rgb(0, 0, 0);
+  border: none;
+}
+
+
+
+/* S E C T I O N  8 */
+
+.sec8 {
+  background-color: #000000;
+  background-repeat: no-repeat;
+  background-size: 100% 96%;
+}
+
+
+
+/* S E C T I O N  9 */
+
+.sec9 {
+  background: url("./images/wgit.jpg") no-repeat;
+  background-size: cover;
+  height: 100%;
+  background-position: top;
+}
+
+.title9{
+  font-family: 'lato', cursive;
+  margin-top: 94px;
+  padding-bottom: 10px;
+  margin-bottom: 0px;
+  font-size: 6rem;
+}
+
+
+@media (min-width: 280px) and (max-width: 598px) {
+
+  .title9{
+    font-size: 45px;
+  }
+}

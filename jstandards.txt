@@ -1,0 +1,19 @@
+const / let são os que mais se iniciam, mas não é uma 'regra':
+
+Ex: 
+
+
+10-Mega (#1, #2, #3, #4, #5, #6, #8*)
+
+obs.:  const ()[]; / let ;
+
+
+- Tive uma ideia de eu ir aplicando tais conceitos até eu ter 'clareza' e assim indo para os próximos.
+ - Na medida que eu for evoluindo, eu pretendo criar novos projetos / desafios nas quais me permita trabalhar
+ com todos conceitos. ainda tem a lógica de programação e algoritmos que são importantes.
+
+- Pensei em começar com DOM, mesmo embora a linguagem possa trabalhar além disso, creio que me trará conceitos
+nas quais poderão ser uteis além do DOM. mas também penso desde já buscar a compreensão e a prática de algorit
+mos e lógica de programação, criar desafios e projetos. 
+
+ - Fontes de estudos / Objetivos de aprendizagem
